@@ -57,7 +57,6 @@ public class Lab6 extends javax.swing.JFrame {
         jButton1 = new javax.swing.JButton();
 
         jFrame2.setTitle("Поздравление");
-        jFrame2.setMaximumSize(new java.awt.Dimension(2147, 2147));
         jFrame2.setMinimumSize(new java.awt.Dimension(400, 300));
         jFrame2.setResizable(false);
         jFrame2.getContentPane().setLayout(null);
@@ -181,7 +180,7 @@ public class Lab6 extends javax.swing.JFrame {
             }
         });
         jFrame3.getContentPane().add(jTextField5);
-        jTextField5.setBounds(190, 120, 140, 100);
+        jTextField5.setBounds(190, 120, 240, 100);
 
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cake-icon (3).png"))); // NOI18N
         jFrame3.getContentPane().add(jLabel6);
@@ -189,7 +188,7 @@ public class Lab6 extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 51));
         jFrame3.getContentPane().add(jPanel1);
-        jPanel1.setBounds(0, 0, 400, 300);
+        jPanel1.setBounds(0, 0, 500, 300);
 
         jFrame3.setLocationRelativeTo(null);
 
